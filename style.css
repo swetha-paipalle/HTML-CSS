@@ -1,0 +1,103 @@
+@import url(https://fonts.google.com/specimen/Qahiri?query=qahiri);
+@font-face {
+    font-family: verdana;
+}
+
+*{
+  box-sizing: border-box;
+  font-family: verdana;
+  color: #777;
+}
+html,body{
+    margin:0;
+    padding:0;
+}
+.nav img{
+    padding-left:5 0 0 0;
+    margin:0;
+}
+.nav ul{
+    margin:0;
+}
+.nav li{
+    display: inline;
+}
+.nav a {
+    color: black;
+    display: inline-block;
+    text-decoration:none;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.nav a:hover {
+    color: black;
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: cyan;
+    width: fit-content; 
+}
+.nav input {
+ max-width:140px;
+}
+.main-nav li{
+    padding: 0 3%;
+}
+.main-header{
+    padding bottom: 5px;
+    
+}
+.section-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: verdana;
+    text-align: left;
+    margin:0;
+    background-color: rgb(169,169,169);
+    background-size:cover;
+    padding:8px;
+     height: auto;
+    width:auto;
+    
+      
+}
+.section-build h1{
+    font-size: 3em;
+    color: none;
+}
+.h1-build{
+    color: white;
+}
+.h1-better{
+    color: cyan;
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 8px;
+    width: fit-content; 
+}
+.para{
+    color: white;
+    max-width: 900px;
+}
+.women-img{
+    width: auto;
+    object-fit: contain;
+    position: relative;
+}
+
+.section-build button{
+    background-color: blue;
+    color: white ;
+}
+.section-welcome-to-learn{
+    text-align:center;
+    padding: 20px;
+}
+.section-welcome-to-learn p{
+    margin-left: auto;
+    margin-right: auto;
+    max-width:500px;
+}
+.accelerate-h1{
+    color: blue;
+}
